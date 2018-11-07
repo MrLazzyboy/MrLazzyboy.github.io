@@ -1,6 +1,7 @@
 {
   "name": "market-place",
   "version": "0.1.0",
+  "homepage" : "http://MrLazzyboy.github.io/marketplace",
   "private": true,
   "dependencies": {
     "node-sass": "^4.10.0",
