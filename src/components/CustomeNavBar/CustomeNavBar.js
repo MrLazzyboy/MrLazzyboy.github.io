@@ -9,7 +9,7 @@ class CustomeNavBar extends Component {
             <Navbar default collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <Link to="/"><Image src="/image/exonlab.svg" alt="logo" /></Link>
+                        <Link to="/"><Image src="/image/images.jpeg" alt="logo" /></Link>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
@@ -21,6 +21,7 @@ class CustomeNavBar extends Component {
                         <NavItem eventKey={2} componentClass={Link} href="/devices" to="/devices">
                             Devices
                         </NavItem>
+                        <NavItem>Companies</NavItem>
                         <NavItem>Sign Up</NavItem>
                         <NavItem>Login</NavItem>
                     </Nav>

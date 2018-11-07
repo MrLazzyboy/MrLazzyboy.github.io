@@ -1,0 +1,53 @@
+.wrapper {
+  man-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  min-height: 400px;
+  color: rgb(51, 51, 51);
+  font-family: OpenSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+
+  .product {
+    margin-top: 50px;
+  }
+
+  .anchors {
+    border-bottom: 1px solid lightgray;
+    
+    a {
+      margin-right: 25px;
+      text-decoration: none;
+    }
+  }
+
+  #general {
+    padding: 10px;
+
+    img{
+      height: 350px;
+      position: relative;
+    }
+
+    .general-description {
+      margin-top: 25px;
+      color: grey;
+    }
+  }
+
+  #certification,
+  #functional,
+  #business,
+  #technical,
+  #reviews
+  {
+    height: 200px;
+    padding-top: 40px;
+    text-align: left;
+    color: grey;
+
+    h3 {
+      color: rgb(51, 51, 51);
+    }
+  }
+}

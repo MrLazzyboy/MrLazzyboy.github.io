@@ -1,0 +1,72 @@
+
+.devices-main {
+  height: 1400px;
+  margin-top: -1.3em;
+  text-align: center;
+
+  .devices-filters {
+    background: #18afa3;
+    height: 1400px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    h4 {
+      font:caption;
+    }
+  }
+
+  .filter-item {
+    border-bottom: 1px solid white;
+  }
+
+  .filter-body {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .devices-list {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .list-about {
+    color: gray;
+  }
+
+  .list-button {
+    margin-top: 3%;
+    text-align: right;
+  }
+
+  .list-search {
+    height: 100px;
+    border-bottom: 1px solid lightgray;
+    display: table;
+    width: 102%;
+
+    .form-group {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  .search-item {
+    margin: 20px 0 0 0;
+    border: 1px solid lightgray;
+    overflow: hidden;
+
+    a {
+      text-decoration: none;
+      color: rgb(51, 51, 51);
+    }
+
+    .description{
+      text-align: left;
+
+      p{
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+
+}
